@@ -197,7 +197,7 @@ HTTP/1.1 429 Too Many Requests
 ```bash
 # send 8 requests
 for i in {1..8}; do
-  curl -s -i http://localhost:8080/items/1 | head -n 1
+  curl -s -i http://localhost:8080/items/100 | head -n 1
 done
 ```
 
