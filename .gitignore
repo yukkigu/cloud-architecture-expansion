@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.*
+.venv
+venv
+
+__pycache__/
+*.db
+
+# Assignment 3 instructions from Canvas
+assignment.md
